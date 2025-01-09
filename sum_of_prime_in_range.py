@@ -13,10 +13,7 @@ def sum_prime(start,end):
     for num in range(start, end+1):
         if is_prime(num):
             primes.append(num)
-
-    if primes:
-        return primes[0] + primes[-1]
-    return 0
+    return primes[0] + primes[-1]
 
 start, end = 1, 5
 print(sum_prime(start,end))
