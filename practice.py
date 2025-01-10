@@ -244,3 +244,18 @@
 # r=2
 # n=5
 # print(energy(x,r,n))
+
+
+
+
+def energy(x,r,n):
+    total=0
+    for i in range(n):
+        total+=x
+        x+=r
+    return total
+
+x=8
+r=2
+n=5
+print(energy(x,r,n))

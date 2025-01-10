@@ -4,7 +4,7 @@ def count_perfect_square(arr):
     count = 0
     for i in arr:
         x = int(math.sqrt(i))
-        if x * x == arr[i]:
+        if x * x == i:
             count += 1
         else:
             continue
